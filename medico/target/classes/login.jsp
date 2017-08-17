@@ -1,8 +1,7 @@
-<!DOCTYPE html>
 <html>
   <head>
     <title>Primeira tela de login</title>
-    <!-- Feito por JosÃ© Carlos Pinheiro Filho, utilizando Pingento como ferramenta. -->
+    <!-- Feito por José Carlos Pinheiro Filho, utilizando Pingento como ferramenta. -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
   </head>
   <body>
@@ -11,7 +10,7 @@
         <div class="row">
           <div class="col-md-12">
             <h1 class="display-1 text-center">MultCare</h1>
-            <p class="lead text-center">MÃ©dico</p>
+            <p class="lead text-center">Médico</p>
           </div>
         </div>
       </div>
@@ -20,18 +19,20 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <p class="lead">MultCare mÃ©dico, versÃ£o destinada para os mÃ©dicos monitorarem o andamento dos pacientes.
-              <br>FaÃ§a login e tenha acesso as informaÃ§Ãµes.</p>
+            <p class="lead">MultCare médico, versão destinada para os médicos monitorarem o andamento dos pacientes.
+              <br>Faça login e tenha acesso as informações.</p>
           </div>
           <div class="col-md-6">
             <form class="">
-              <div class="form-group w-75"> <label>E-mail/CPF</label>
-                <input type="email" class="form-control" placeholder="Enter email/CPF"> </div>
+              <div class="form-group w-75"> <label>E-mail</label>
+                <input type="email" class="form-control" placeholder="Enter email"> </div>
               <div class="form-group w-75"> <label>Senha</label>
                 <input type="password" class="form-control" placeholder="Senha"> </div>
               <button type="submit" class="btn btn-primary">Login</button>
             </form>
-            <a href="#" class="btn btn-outline-success">Cadastrar-se</a>
+            <form name="formCadastro" action="cadnovomedico.jsp" method = "post">
+           	 <button type="submit" class="btn btn-outline-success">Cadastrar-se</button>
+            </form>
             <a href="#" class="btn btn-outline-warning">Esqueceu sua senha?</a>
           </div>
         </div>
