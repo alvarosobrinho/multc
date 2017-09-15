@@ -21,6 +21,18 @@
 	    <version>3.0.1</version>
 	    <scope>provided</scope>
 	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-embed-core -->
+	<dependency>
+	    <groupId>org.apache.tomcat.embed</groupId>
+	    <artifactId>tomcat-embed-core</artifactId>
+	    <version>9.0.0.M26</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/xstream/xstream -->
+	<dependency>
+	    <groupId>xstream</groupId>
+	    <artifactId>xstream</artifactId>
+	    <version>1.2.2</version>
+	</dependency>
   </dependencies>
   <build>
     <finalName>medico</finalName>
