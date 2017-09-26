@@ -1,4 +1,4 @@
-package br.com.multcare.medico.factory;
+package br.com.multcare.factory;
 import java.sql.*;
 
 public class ConnectionFactory {

@@ -3,7 +3,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-import br.com.multcare.medico.factory.ConnectionFactory;
+import br.com.multcare.factory.ConnectionFactory;
 import br.com.multcare.medico.javabeans.Medico;
 public class MedicoDao {
 	private Connection connection;

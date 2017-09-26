@@ -2,7 +2,7 @@ package testes;
 import java.sql.Connection;
 import java.sql.SQLException;
 
-import br.com.multcare.medico.factory.ConnectionFactory;
+import br.com.multcare.factory.ConnectionFactory;
 
 public class TestaConexao {
 

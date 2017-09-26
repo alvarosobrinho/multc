@@ -5,12 +5,13 @@ import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
+import br.com.multcare.factory.ConnectionFactory;
 import br.com.multcare.paciente.javabens.Paciente;
 
 public class PacienteDao {
 	private Connection connection;
-	public PacienteDao(){ 
-	this.connection = new ConnectionFactory().getConnection();
+	public PacienteDao() throws ClassNotFoundException{ 
+	    this.connection = new ConnectionFactory().getConnection();
 	}
    
 	public void adiciona(Paciente paciente){ 

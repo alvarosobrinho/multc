@@ -16,7 +16,13 @@ public class TestePacienteDaoAlterar {
 		p.setNome("Wallace");
 		p.setUsuario("UsuarioAluno");
 	  
-		PacienteDao pd = new PacienteDao();
+		PacienteDao pd;
+		try {
+			pd = new PacienteDao();
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		pd.alterna(p);
 		
 	}

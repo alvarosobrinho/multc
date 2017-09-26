@@ -7,7 +7,13 @@ public class TestePacienteDaoRemover {
 	public static void main(String[] args){
 		Paciente p = new Paciente();
 		p.setUsuario("");
-		PacienteDao pd = new PacienteDao();
+		PacienteDao pd;
+		try {
+			pd = new PacienteDao();
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		pd.remove(p);
 		
 	}
