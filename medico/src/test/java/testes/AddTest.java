@@ -1,7 +1,7 @@
 package testes;
 
-import br.com.multicare.medico.dao.MedicoDao;
-import br.com.multicare.medico.javabeans.Medico;
+import br.com.multcare.medico.dao.MedicoDao;
+import br.com.multcare.medico.javabeans.Medico;
 
 public class AddTest {
 

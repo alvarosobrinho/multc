@@ -1,7 +1,7 @@
 package testes;
 
-import com.thoughtworks.xstream.XStream;
-import com.thoughtworks.xstream.io.xml.DomDriver;
+//import com.thoughtworks.xstream.XStream;
+//import com.thoughtworks.xstream.io.xml.DomDriver;
 
 import classtest.PacienteTest;
 
@@ -11,9 +11,9 @@ public class TestXstream {
 		
 		paciente.setNome("paci");
 		paciente.addDoenca("diabates");
-		paciente.addDoenca("hipertensão");
-		XStream stream = new XStream(new DomDriver());
-		stream.alias("pacientetest", PacienteTest.class);
-		System.out.println(stream.toXML(paciente));
+		paciente.addDoenca("hipertensï¿½o");
+	//	XStream stream = new XStream(new DomDriver());
+	//	stream.alias("pacientetest", PacienteTest.class);
+		//System.out.println(stream.toXML(paciente));
 	}
 }
