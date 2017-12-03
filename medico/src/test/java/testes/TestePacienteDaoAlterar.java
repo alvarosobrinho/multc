@@ -5,8 +5,6 @@ import java.util.Calendar;
 import br.com.multcare.paciente.dao.PacienteDao;
 import br.com.multcare.paciente.javabens.Paciente;
 
-
-
 public class TestePacienteDaoAlterar {
 	public static void main(String[] args){
 		Paciente p = new Paciente();
@@ -23,7 +21,7 @@ public class TestePacienteDaoAlterar {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		pd.alterna(p);
+		pd.altera(p);
 		
 	}
 }
